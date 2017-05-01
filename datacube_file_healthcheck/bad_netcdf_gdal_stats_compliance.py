@@ -122,7 +122,7 @@ def main(netcdf_list):
                         logging.error("Dataset is BAD and Archived but NOT deleted TRASH %s", i)
 
                     else:
-                        logging.error("Dataset is BAD and NOT in DataCube - TRASH %s", i)
+                        logging.error("Dataset is BAD and Should be Archived - then TRASH %s", i)
 
 
 
